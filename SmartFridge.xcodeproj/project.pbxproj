@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8118DBD1FABA1DA00294556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8118DBC1FABA1DA00294556 /* Images.xcassets */; };
+		D8118DBF1FABAE4E00294556 /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8118DBE1FABAE4E00294556 /* QRCodeScanner.swift */; };
+		D8472A1B1FB62E880099A882 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8472A1A1FB62E880099A882 /* SignUp.swift */; };
+		D84A7C351FDA5C1800E61859 /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D84A7C341FDA5C1800E61859 /* Food101.mlmodel */; };
+		D86AA7B11FCD215400EBE265 /* GroceryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AA7B01FCD215400EBE265 /* GroceryListTableViewCell.swift */; };
+		D86AA7B31FCD216D00EBE265 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AA7B21FCD216D00EBE265 /* GroceryList.swift */; };
+		D897D7511FB26E590088E767 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897D7501FB26E590088E767 /* DashboardTableViewCell.swift */; };
+		D89980E81FCDE56400B5E0B4 /* GroceryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89980E71FCDE56400B5E0B4 /* GroceryListModel.swift */; };
+		D8AD88C21FCE6C2100D8D881 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD88C11FCE6C2100D8D881 /* Profile.swift */; };
+		D8B3C2481FC2A68A0068BCF2 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3C2471FC2A68A0068BCF2 /* Login.swift */; };
+		D8DB01931FDA2EE100604EAD /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB01921FDA2EE100604EAD /* Nutrition.swift */; };
+		D8DB01951FDA2F0A00604EAD /* MLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB01941FDA2F0A00604EAD /* MLViewController.swift */; };
+		D8E41FCA1FB2717B006AC73A /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E41FC91FB2717B006AC73A /* Dashboard.swift */; };
+		D8E41FCC1FB2C083006AC73A /* RestApiUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E41FCB1FB2C083006AC73A /* RestApiUrl.swift */; };
+		D8E48BFF1FCF8343008E66C9 /* AddToGroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E48BFE1FCF8343008E66C9 /* AddToGroceryList.swift */; };
+		D8F6C28A1FDB0BB40031A19E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6C2891FDB0BB30031A19E /* Charts.framework */; };
+		D8F6C28B1FDB0BB40031A19E /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6C2891FDB0BB30031A19E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8F6C28E1FDB14770031A19E /* IngredientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F6C28D1FDB14770031A19E /* IngredientsTableViewCell.swift */; };
+		D8F6C2901FDB14950031A19E /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F6C28F1FDB14950031A19E /* IngredientsViewController.swift */; };
+		D8FC718F1FD1FE2A003F6C03 /* CustomGroceryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC718E1FD1FE2A003F6C03 /* CustomGroceryListCell.swift */; };
+		D8FF75241FABF0A600FCE0EC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FF75231FABF0A600FCE0EC /* HomeModel.swift */; };
+		D8FF75261FAC2E3500FCE0EC /* FridgeItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FF75251FAC2E3500FCE0EC /* FridgeItemsModel.swift */; };
+		E63FD6D81FA50521008A2D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63FD6D71FA50521008A2D22 /* AppDelegate.swift */; };
+		E63FD6DA1FA50521008A2D22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63FD6D91FA50521008A2D22 /* ViewController.swift */; };
+		E63FD6DD1FA50521008A2D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63FD6DB1FA50521008A2D22 /* Main.storyboard */; };
+		E63FD6E21FA50521008A2D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63FD6E01FA50521008A2D22 /* LaunchScreen.storyboard */; };
+		FE0E3EBE1FD2253400CC1E63 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E3EBD1FD2253400CC1E63 /* LocationController.swift */; };
+		FE0E3EC11FD2259100CC1E63 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0E3EC01FD2258A00CC1E63 /* MapKit.framework */; };
+		FE0E3EC31FD2330500CC1E63 /* GroceryPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E3EC21FD2330500CC1E63 /* GroceryPlaces.swift */; };
+		FED2EEC21FDA3F87009BFE5A /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEC11FDA3F87009BFE5A /* CGImagePropertyOrientation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8F6C28C1FDB0BB40031A19E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8F6C28B1FDB0BB40031A19E /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8118DBC1FABA1DA00294556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8118DBE1FABAE4E00294556 /* QRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanner.swift; sourceTree = "<group>"; };
+		D8472A1A1FB62E880099A882 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		D84A7C341FDA5C1800E61859 /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
+		D86AA7B01FCD215400EBE265 /* GroceryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewCell.swift; sourceTree = "<group>"; };
+		D86AA7B21FCD216D00EBE265 /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
+		D897D7501FB26E590088E767 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		D89980E71FCDE56400B5E0B4 /* GroceryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListModel.swift; sourceTree = "<group>"; };
+		D8AD88C11FCE6C2100D8D881 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D8B3C2471FC2A68A0068BCF2 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D8DB01921FDA2EE100604EAD /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
+		D8DB01941FDA2F0A00604EAD /* MLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLViewController.swift; sourceTree = "<group>"; };
+		D8E41FC91FB2717B006AC73A /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		D8E41FCB1FB2C083006AC73A /* RestApiUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiUrl.swift; sourceTree = "<group>"; };
+		D8E48BFE1FCF8343008E66C9 /* AddToGroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToGroceryList.swift; sourceTree = "<group>"; };
+		D8E48C001FCF8A31008E66C9 /* SmartFridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartFridge.entitlements; sourceTree = "<group>"; };
+		D8F6C2891FDB0BB30031A19E /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
+		D8F6C28D1FDB14770031A19E /* IngredientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewCell.swift; sourceTree = "<group>"; };
+		D8F6C28F1FDB14950031A19E /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		D8FC718E1FD1FE2A003F6C03 /* CustomGroceryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGroceryListCell.swift; sourceTree = "<group>"; };
+		D8FF75231FABF0A600FCE0EC /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		D8FF75251FAC2E3500FCE0EC /* FridgeItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItemsModel.swift; sourceTree = "<group>"; };
+		E63FD6D41FA50521008A2D22 /* SmartFridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63FD6D71FA50521008A2D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E63FD6D91FA50521008A2D22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E63FD6DC1FA50521008A2D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E63FD6E11FA50521008A2D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E63FD6E31FA50521008A2D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0E3EBD1FD2253400CC1E63 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		FE0E3EC01FD2258A00CC1E63 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FE0E3EC21FD2330500CC1E63 /* GroceryPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryPlaces.swift; sourceTree = "<group>"; };
+		FED2EEC11FDA3F87009BFE5A /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63FD6D11FA50521008A2D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0E3EC11FD2259100CC1E63 /* MapKit.framework in Frameworks */,
+				D8F6C28A1FDB0BB40031A19E /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63FD6CB1FA50521008A2D22 = {
+			isa = PBXGroup;
+			children = (
+				D8F6C2891FDB0BB30031A19E /* Charts.framework */,
+				E63FD6D61FA50521008A2D22 /* SmartFridge */,
+				E63FD6D51FA50521008A2D22 /* Products */,
+				FE0E3EBF1FD2258A00CC1E63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E63FD6D51FA50521008A2D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63FD6D41FA50521008A2D22 /* SmartFridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63FD6D61FA50521008A2D22 /* SmartFridge */ = {
+			isa = PBXGroup;
+			children = (
+				D8E48C001FCF8A31008E66C9 /* SmartFridge.entitlements */,
+				E63FD6D71FA50521008A2D22 /* AppDelegate.swift */,
+				E63FD6D91FA50521008A2D22 /* ViewController.swift */,
+				E63FD6DB1FA50521008A2D22 /* Main.storyboard */,
+				E63FD6E01FA50521008A2D22 /* LaunchScreen.storyboard */,
+				E63FD6E31FA50521008A2D22 /* Info.plist */,
+				D8118DBC1FABA1DA00294556 /* Images.xcassets */,
+				D8118DBE1FABAE4E00294556 /* QRCodeScanner.swift */,
+				D8FF75231FABF0A600FCE0EC /* HomeModel.swift */,
+				D8FF75251FAC2E3500FCE0EC /* FridgeItemsModel.swift */,
+				D897D7501FB26E590088E767 /* DashboardTableViewCell.swift */,
+				D8E41FC91FB2717B006AC73A /* Dashboard.swift */,
+				D8E41FCB1FB2C083006AC73A /* RestApiUrl.swift */,
+				D8472A1A1FB62E880099A882 /* SignUp.swift */,
+				D8B3C2471FC2A68A0068BCF2 /* Login.swift */,
+				D86AA7B01FCD215400EBE265 /* GroceryListTableViewCell.swift */,
+				D86AA7B21FCD216D00EBE265 /* GroceryList.swift */,
+				D89980E71FCDE56400B5E0B4 /* GroceryListModel.swift */,
+				D8AD88C11FCE6C2100D8D881 /* Profile.swift */,
+				D8E48BFE1FCF8343008E66C9 /* AddToGroceryList.swift */,
+				D8FC718E1FD1FE2A003F6C03 /* CustomGroceryListCell.swift */,
+				FE0E3EBD1FD2253400CC1E63 /* LocationController.swift */,
+				FE0E3EC21FD2330500CC1E63 /* GroceryPlaces.swift */,
+				D84A7C341FDA5C1800E61859 /* Food101.mlmodel */,
+				D8DB01921FDA2EE100604EAD /* Nutrition.swift */,
+				D8DB01941FDA2F0A00604EAD /* MLViewController.swift */,
+				FED2EEC11FDA3F87009BFE5A /* CGImagePropertyOrientation.swift */,
+				D8F6C28D1FDB14770031A19E /* IngredientsTableViewCell.swift */,
+				D8F6C28F1FDB14950031A19E /* IngredientsViewController.swift */,
+			);
+			path = SmartFridge;
+			sourceTree = "<group>";
+		};
+		FE0E3EBF1FD2258A00CC1E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E3EC01FD2258A00CC1E63 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63FD6D31FA50521008A2D22 /* SmartFridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63FD6E61FA50521008A2D22 /* Build configuration list for PBXNativeTarget "SmartFridge" */;
+			buildPhases = (
+				E63FD6D01FA50521008A2D22 /* Sources */,
+				E63FD6D11FA50521008A2D22 /* Frameworks */,
+				E63FD6D21FA50521008A2D22 /* Resources */,
+				D8F6C28C1FDB0BB40031A19E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartFridge;
+			productName = SmartFridge;
+			productReference = E63FD6D41FA50521008A2D22 /* SmartFridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63FD6CC1FA50521008A2D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = SJSU;
+				TargetAttributes = {
+					E63FD6D31FA50521008A2D22 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E63FD6CF1FA50521008A2D22 /* Build configuration list for PBXProject "SmartFridge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = E63FD6CB1FA50521008A2D22;
+			productRefGroup = E63FD6D51FA50521008A2D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63FD6D31FA50521008A2D22 /* SmartFridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63FD6D21FA50521008A2D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8118DBD1FABA1DA00294556 /* Images.xcassets in Resources */,
+				E63FD6E21FA50521008A2D22 /* LaunchScreen.storyboard in Resources */,
+				E63FD6DD1FA50521008A2D22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63FD6D01FA50521008A2D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86AA7B11FCD215400EBE265 /* GroceryListTableViewCell.swift in Sources */,
+				D897D7511FB26E590088E767 /* DashboardTableViewCell.swift in Sources */,
+				D8B3C2481FC2A68A0068BCF2 /* Login.swift in Sources */,
+				D8AD88C21FCE6C2100D8D881 /* Profile.swift in Sources */,
+				D8FF75241FABF0A600FCE0EC /* HomeModel.swift in Sources */,
+				D8DB01951FDA2F0A00604EAD /* MLViewController.swift in Sources */,
+				E63FD6DA1FA50521008A2D22 /* ViewController.swift in Sources */,
+				D84A7C351FDA5C1800E61859 /* Food101.mlmodel in Sources */,
+				D8118DBF1FABAE4E00294556 /* QRCodeScanner.swift in Sources */,
+				E63FD6D81FA50521008A2D22 /* AppDelegate.swift in Sources */,
+				D8F6C28E1FDB14770031A19E /* IngredientsTableViewCell.swift in Sources */,
+				D8FC718F1FD1FE2A003F6C03 /* CustomGroceryListCell.swift in Sources */,
+				FE0E3EC31FD2330500CC1E63 /* GroceryPlaces.swift in Sources */,
+				D89980E81FCDE56400B5E0B4 /* GroceryListModel.swift in Sources */,
+				D86AA7B31FCD216D00EBE265 /* GroceryList.swift in Sources */,
+				FED2EEC21FDA3F87009BFE5A /* CGImagePropertyOrientation.swift in Sources */,
+				D8E41FCA1FB2717B006AC73A /* Dashboard.swift in Sources */,
+				D8DB01931FDA2EE100604EAD /* Nutrition.swift in Sources */,
+				D8E41FCC1FB2C083006AC73A /* RestApiUrl.swift in Sources */,
+				D8E48BFF1FCF8343008E66C9 /* AddToGroceryList.swift in Sources */,
+				D8472A1B1FB62E880099A882 /* SignUp.swift in Sources */,
+				D8F6C2901FDB14950031A19E /* IngredientsViewController.swift in Sources */,
+				FE0E3EBE1FD2253400CC1E63 /* LocationController.swift in Sources */,
+				D8FF75261FAC2E3500FCE0EC /* FridgeItemsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63FD6DB1FA50521008A2D22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63FD6DC1FA50521008A2D22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E63FD6E01FA50521008A2D22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63FD6E11FA50521008A2D22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63FD6E41FA50521008A2D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E63FD6E51FA50521008A2D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63FD6E71FA50521008A2D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartFridge/SmartFridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZS93TK53J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SmartFridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.SmartFridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E63FD6E81FA50521008A2D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartFridge/SmartFridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZS93TK53J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SmartFridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.SmartFridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63FD6CF1FA50521008A2D22 /* Build configuration list for PBXProject "SmartFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63FD6E41FA50521008A2D22 /* Debug */,
+				E63FD6E51FA50521008A2D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63FD6E61FA50521008A2D22 /* Build configuration list for PBXNativeTarget "SmartFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63FD6E71FA50521008A2D22 /* Debug */,
+				E63FD6E81FA50521008A2D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63FD6CC1FA50521008A2D22 /* Project object */;
+}
