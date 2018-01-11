@@ -2,7 +2,7 @@
 //  CGImagePropertyOrientation.swift
 //  SmartFridge
 //
-//  Created by sindhya on 12/7/17.
+//  Created by Divyankitha Raghava Urs on 12/7/17.
 //  Copyright © 2017 SJSU. All rights reserved.
 //
 
