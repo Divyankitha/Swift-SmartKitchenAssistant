@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SmartFridge
 //
-//  Created by Sindhya on 10/28/17.
+//  Created by Divyankitha Raghava Urs on 10/28/17.
 //  Copyright © 2017 SJSU. All rights reserved.
 //
 
