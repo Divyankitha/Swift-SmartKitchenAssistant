@@ -2,7 +2,7 @@
 //  GroceryPlaces.swift
 //  SmartFridge
 //
-//  Created by sindhya on 12/1/17.
+//  Created by Divyankitha Raghava Urs on 12/1/17.
 //  Copyright © 2017 SJSU. All rights reserved.
 //
 
