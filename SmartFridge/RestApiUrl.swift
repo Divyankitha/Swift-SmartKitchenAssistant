@@ -11,7 +11,7 @@ import Foundation
 public class RestApiUrl
 {
     let aws = "http://ec2-34-216-182-158.us-west-2.compute.amazonaws.com:8080"
-    let apiKey = "cd43a23d1101d689216c4acd84fdb2ef"
-    let appID = "21056152"
+    let apiKey = "xxxxx"
+    let appID = "xxxxx"
     let nutritionAPI = "http://api.edamam.com/search?r=http://www.edamam.com/ontologies/edamam.owl%23recipe_"
 }
